@@ -3,3 +3,19 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.todos__filter {
+  display: flex;
+}
+
+.todos {
+
+}
+
+.todos__item p {
+  pointer-events: none;
+}
+
+.todos__item_completed {
+  text-decoration: line-through;
+}
